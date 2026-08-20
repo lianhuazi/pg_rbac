@@ -1,0 +1,12 @@
+# 数据库连接配置
+database:
+  host: 127.0.0.1
+  port: 5432
+  user: root
+  password: "tt@2025"
+  dbname: tt-pre
+
+# 脚本行为配置
+settings:
+  autocommit: false
+  dry_run_default: false  # 默认是否只生成SQL不执行

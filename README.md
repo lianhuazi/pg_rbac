@@ -86,7 +86,7 @@ pg_rbac[-pre][DRY]> template readwrite test-rw -p 1213 -d xxl-job -s public -o r
   -t 权限模式: readonly / dml / readwrite / dba / backup
   -o, --owner-role  建表者角色（用于设置默认权限）
  ```
- ## REPL 模式 
+ ## REPL 模式  tab 功能补全参数
  ```bash
   uv run pg_rbac_beta.py 
 ```
